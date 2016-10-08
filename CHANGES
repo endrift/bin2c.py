@@ -1,0 +1,8 @@
+Changelog
+=========
+
+0.2.0
+-----
+
+* Change behavior for when no output file is specified to create one output
+  file for each input file

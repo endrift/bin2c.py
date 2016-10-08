@@ -41,7 +41,7 @@ entry_points = {
 }
 
 setup(name="bin2c",
-      version="0.1.0",
+      version="0.2.0",
       author="Jeffrey Pfau",
       author_email="jeffrey@endrift.com",
       url="http://github.com/endrift/bin2c.py/",

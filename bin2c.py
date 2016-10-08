@@ -93,7 +93,8 @@ def _main():
     if not args:
         sys.exit(1)
     if not args.o:
-        output_set(args.input[0], args.input)
+        for in_name in args.input:
+            output_set(in_name, [in_name])
     else:
         output_set(args.o, args.input)
 
